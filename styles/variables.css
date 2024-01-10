@@ -8,4 +8,12 @@
   --hover: #ff007066;
   --link-color: #ff0070;
   --decorated-zone-color: #ff0070;
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --main-font-size: 18px;
+  --main-line-height: 23.4px;
+  --title-line-height: 82.5%;
+  --decor-line-height: 25px;
+  --button-line-height: 18px;
 }
