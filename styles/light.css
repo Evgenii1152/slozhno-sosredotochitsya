@@ -1,4 +1,5 @@
 :root.theme_light {
+  --background-image: url(../images/cover-image-light.png);
   --main-text-color: #353430;
   --title-text-color: #ffc2e6;
   --section-title-text-color: #353430;
@@ -16,6 +17,7 @@
   --title-line-height: 82.5%;
   --decor-line-height: 25px;
   --button-line-height: 18px;
+  --title-text-shadow: #ff8dcb;
 }
 
 .page.theme_light .lamp {
@@ -23,7 +25,9 @@
 }
 
 @media (prefers-color-scheme: light) {
+  
   :root {
+    --background-image: url(../images/cover-image-light.png);
     --main-text-color: #353430;
     --title-text-color: #ffc2e6;
     --section-title-text-color: #353430;
@@ -41,6 +45,7 @@
     --title-line-height: 82.5%;
     --decor-line-height: 25px;
     --button-line-height: 18px;
+    --title-text-shadow: #ff8dcb;
   }
 
   .lamp {
@@ -49,7 +54,7 @@
 }
 
 .page.theme_light {
-  background-image: url(../images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
   --main-text-color: #353430;
   --title-text-color: #ffc2e6;
   --section-title-text-color: #353430;
@@ -67,4 +72,5 @@
   --title-line-height: 82.5%;
   --decor-line-height: 25px;
   --button-line-height: 18px;
+  --title-text-shadow: #ff8dcb;
 }

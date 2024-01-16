@@ -1,4 +1,5 @@
 :root {
+  --background-image: url(../images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
   --title-text-color: #db00ff;
   --section-title-text-color: #ff0070;
@@ -16,4 +17,5 @@
   --title-line-height: 82.5%;
   --decor-line-height: 25px;
   --button-line-height: 18px;
+  --title-text-shadow: #ff0070;
 }
